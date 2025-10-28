@@ -1,0 +1,48 @@
+.projects-section {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 35px;
+  color: #00ffaa;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  background-color: #0f0f0f;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0f0f0f, #222, #2a2a2a);
+  border-color: #00ffaa;
+  box-shadow: 0 0 20px #00ffaa33, 0 0 40px #00ffaa22;
+}
+
+.box h3 {
+  color: #00ffaa;
+  margin-top: 0;
+}
+
+.box p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
